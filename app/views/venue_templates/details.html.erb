@@ -1,4 +1,4 @@
-<h1>venue Details</h1>
+<h1>Venue Details</h1>
 
 <dl>
   <dt>Address</dt>
@@ -23,7 +23,7 @@
 
   <dt>Edit venue</dt>
   <dd>
-    <form action="/update_venue/<%= @the_venue.id %>">
+    <form action="/update_venue/<%= @the_venue.id %>" method="post">
       <label for="browser_venue">Address</label>
       <input id="browser_venue" type="text" name="query_address" value="<%= @the_venue.address %>" placeholder="Enter an address...">
       
